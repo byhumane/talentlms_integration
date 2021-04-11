@@ -1,1 +1,1 @@
-# talent-lms-integration
+# talentlms_integration
