@@ -1,0 +1,20 @@
+name: talent-lms-integration
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python
+- pandas
+- seaborn # data viz
+- statsmodels
+- scikit-learn
+- scipy
+- keras # easy tensorflow
+- altair # data viz
+- google-cloud-bigquery
+- ipykernel # to show the kernel on jupyter
+- pandas-profiling
+- modin
+- openpyxl # to manage excel files
+- cookiecutter
+- talentlms #package to consume talentlms api
