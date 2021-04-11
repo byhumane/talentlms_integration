@@ -17,4 +17,5 @@ dependencies:
 - modin
 - openpyxl # to manage excel files
 - cookiecutter
-- talentlms #package to consume talentlms api
+- pip:
+  - talentlms #package to consume talentlms api
