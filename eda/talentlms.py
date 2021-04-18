@@ -234,8 +234,13 @@ class api(object):
                 "getusersprogressinunits", {"unit_id": unit_id, "user_id": user_id}
             )
 
+#    def get_test_answers(self, test_id, user_id):
+#        raise NotImplementedError
+        
     def get_test_answers(self, test_id, user_id):
-        raise NotImplementedError
+        return self.get(
+            "gettestanswers",{'test_id':test_id, 'user_id':user_id}
+        )
 
     def get_survey_answers(self, survey_id, user_id):
         raise NotImplementedError
