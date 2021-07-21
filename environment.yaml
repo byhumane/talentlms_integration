@@ -9,11 +9,11 @@ dependencies:
 - statsmodels
 - scikit-learn
 - scipy
-- keras # easy tensorflow
 - altair # data viz
 - google-cloud-bigquery
 - ipykernel # to show the kernel on jupyter
 - pandas-profiling
-- modin
-- openpyxl # to manage excel files
-- cookiecutter
+- pandas-gbq
+- google-cloud-storage
+- fsspec # to use pandas with gcs
+- gcsfs # to use pandas with gcs
